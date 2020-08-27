@@ -19,10 +19,15 @@ Objective-C
 ```
 // 导入头文件
 #import "YHMirror.h"
+// AppDelegate
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
 #ifdef DEBUG
     [[YHMirror shareMirror] openDefaultMirror];
 #endif
+    return YES;
+}
 
 ```
 
