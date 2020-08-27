@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CF4CE624F785A000BD18E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4CE524F785A000BD18E9 /* AppDelegate.m */; };
+		84CF4CEC24F785A000BD18E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4CEB24F785A000BD18E9 /* ViewController.m */; };
+		84CF4CEF24F785A000BD18E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CF4CED24F785A000BD18E9 /* Main.storyboard */; };
+		84CF4CF124F785A200BD18E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CF4CF024F785A200BD18E9 /* Assets.xcassets */; };
+		84CF4CF424F785A200BD18E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CF4CF224F785A200BD18E9 /* LaunchScreen.storyboard */; };
+		84CF4CF724F785A200BD18E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4CF624F785A200BD18E9 /* main.m */; };
+		84CF4D0124F785A200BD18E9 /* YHMirrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D0024F785A200BD18E9 /* YHMirrorTests.m */; };
+		84CF4D0C24F785A200BD18E9 /* YHMirrorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D0B24F785A200BD18E9 /* YHMirrorUITests.m */; };
+		84CF4D3524F7862800BD18E9 /* YHMirrorNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D1D24F7862800BD18E9 /* YHMirrorNavigationController.m */; };
+		84CF4D3624F7862800BD18E9 /* YHMirrorDebugHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D1F24F7862800BD18E9 /* YHMirrorDebugHomeController.m */; };
+		84CF4D3724F7862800BD18E9 /* YHMirrorTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2224F7862800BD18E9 /* YHMirrorTreeView.m */; };
+		84CF4D3824F7862800BD18E9 /* YHMirrorBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2724F7862800BD18E9 /* YHMirrorBaseController.m */; };
+		84CF4D3924F7862800BD18E9 /* YHMirrorDebugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2824F7862800BD18E9 /* YHMirrorDebugModel.m */; };
+		84CF4D3A24F7862800BD18E9 /* YHMirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2924F7862800BD18E9 /* YHMirror.m */; };
+		84CF4D3B24F7862800BD18E9 /* YHMirrorUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2A24F7862800BD18E9 /* YHMirrorUI.m */; };
+		84CF4D3C24F7862800BD18E9 /* YHMirrorDebugDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2B24F7862800BD18E9 /* YHMirrorDebugDetailController.m */; };
+		84CF4D3D24F7862800BD18E9 /* YHSuspensionBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2D24F7862800BD18E9 /* YHSuspensionBall.m */; };
+		84CF4D3E24F7862800BD18E9 /* YHMirrorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D2F24F7862800BD18E9 /* YHMirrorController.m */; };
+		84CF4D3F24F7862800BD18E9 /* YHMirrorDebugCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D3124F7862800BD18E9 /* YHMirrorDebugCell.m */; };
+		84CF4D4024F7862800BD18E9 /* YHMirrorWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D3324F7862800BD18E9 /* YHMirrorWindow.m */; };
+		84CF4D4124F7862800BD18E9 /* YHMirrorDebugTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D3424F7862800BD18E9 /* YHMirrorDebugTableView.m */; };
+		84CF4D4424F7879600BD18E9 /* YHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF4D4324F7879600BD18E9 /* YHButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CF4CFD24F785A200BD18E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CF4CD924F785A000BD18E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CF4CE024F785A000BD18E9;
+			remoteInfo = YHMirror;
+		};
+		84CF4D0824F785A200BD18E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CF4CD924F785A000BD18E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CF4CE024F785A000BD18E9;
+			remoteInfo = YHMirror;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CF4CE124F785A000BD18E9 /* YHMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CF4CE424F785A000BD18E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84CF4CE524F785A000BD18E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84CF4CEA24F785A000BD18E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CF4CEB24F785A000BD18E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CF4CEE24F785A000BD18E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CF4CF024F785A200BD18E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CF4CF324F785A200BD18E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CF4CF524F785A200BD18E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CF4CF624F785A200BD18E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CF4CFC24F785A200BD18E9 /* YHMirrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHMirrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CF4D0024F785A200BD18E9 /* YHMirrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMirrorTests.m; sourceTree = "<group>"; };
+		84CF4D0224F785A200BD18E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CF4D0724F785A200BD18E9 /* YHMirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHMirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CF4D0B24F785A200BD18E9 /* YHMirrorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMirrorUITests.m; sourceTree = "<group>"; };
+		84CF4D0D24F785A200BD18E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CF4D1A24F7862800BD18E9 /* YHMirrorUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorUI.h; sourceTree = "<group>"; };
+		84CF4D1B24F7862800BD18E9 /* YHMirror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirror.h; sourceTree = "<group>"; };
+		84CF4D1C24F7862800BD18E9 /* YHMirrorDebugModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorDebugModel.h; sourceTree = "<group>"; };
+		84CF4D1D24F7862800BD18E9 /* YHMirrorNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorNavigationController.m; sourceTree = "<group>"; };
+		84CF4D1E24F7862800BD18E9 /* YHSuspensionBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHSuspensionBall.h; sourceTree = "<group>"; };
+		84CF4D1F24F7862800BD18E9 /* YHMirrorDebugHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorDebugHomeController.m; sourceTree = "<group>"; };
+		84CF4D2024F7862800BD18E9 /* YHMirrorDebugDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorDebugDetailController.h; sourceTree = "<group>"; };
+		84CF4D2124F7862800BD18E9 /* YHMirrorDebugCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorDebugCell.h; sourceTree = "<group>"; };
+		84CF4D2224F7862800BD18E9 /* YHMirrorTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorTreeView.m; sourceTree = "<group>"; };
+		84CF4D2324F7862800BD18E9 /* YHMirrorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorController.h; sourceTree = "<group>"; };
+		84CF4D2424F7862800BD18E9 /* YHMirrorDebugTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorDebugTableView.h; sourceTree = "<group>"; };
+		84CF4D2524F7862800BD18E9 /* YHMirrorWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorWindow.h; sourceTree = "<group>"; };
+		84CF4D2624F7862800BD18E9 /* YHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMacro.h; sourceTree = "<group>"; };
+		84CF4D2724F7862800BD18E9 /* YHMirrorBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorBaseController.m; sourceTree = "<group>"; };
+		84CF4D2824F7862800BD18E9 /* YHMirrorDebugModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorDebugModel.m; sourceTree = "<group>"; };
+		84CF4D2924F7862800BD18E9 /* YHMirror.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirror.m; sourceTree = "<group>"; };
+		84CF4D2A24F7862800BD18E9 /* YHMirrorUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorUI.m; sourceTree = "<group>"; };
+		84CF4D2B24F7862800BD18E9 /* YHMirrorDebugDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorDebugDetailController.m; sourceTree = "<group>"; };
+		84CF4D2C24F7862800BD18E9 /* YHMirrorDebugHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorDebugHomeController.h; sourceTree = "<group>"; };
+		84CF4D2D24F7862800BD18E9 /* YHSuspensionBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHSuspensionBall.m; sourceTree = "<group>"; };
+		84CF4D2E24F7862800BD18E9 /* YHMirrorNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorNavigationController.h; sourceTree = "<group>"; };
+		84CF4D2F24F7862800BD18E9 /* YHMirrorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorController.m; sourceTree = "<group>"; };
+		84CF4D3024F7862800BD18E9 /* YHMirrorTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorTreeView.h; sourceTree = "<group>"; };
+		84CF4D3124F7862800BD18E9 /* YHMirrorDebugCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorDebugCell.m; sourceTree = "<group>"; };
+		84CF4D3224F7862800BD18E9 /* YHMirrorBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHMirrorBaseController.h; sourceTree = "<group>"; };
+		84CF4D3324F7862800BD18E9 /* YHMirrorWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorWindow.m; sourceTree = "<group>"; };
+		84CF4D3424F7862800BD18E9 /* YHMirrorDebugTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHMirrorDebugTableView.m; sourceTree = "<group>"; };
+		84CF4D4224F7879600BD18E9 /* YHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButton.h; sourceTree = "<group>"; };
+		84CF4D4324F7879600BD18E9 /* YHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CF4CDE24F785A000BD18E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4CF924F785A200BD18E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4D0424F785A200BD18E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CF4CD824F785A000BD18E9 = {
+			isa = PBXGroup;
+			children = (
+				84CF4D1924F7862800BD18E9 /* Sources */,
+				84CF4CE324F785A000BD18E9 /* YHMirror */,
+				84CF4CFF24F785A200BD18E9 /* YHMirrorTests */,
+				84CF4D0A24F785A200BD18E9 /* YHMirrorUITests */,
+				84CF4CE224F785A000BD18E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CF4CE224F785A000BD18E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CF4CE124F785A000BD18E9 /* YHMirror.app */,
+				84CF4CFC24F785A200BD18E9 /* YHMirrorTests.xctest */,
+				84CF4D0724F785A200BD18E9 /* YHMirrorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CF4CE324F785A000BD18E9 /* YHMirror */ = {
+			isa = PBXGroup;
+			children = (
+				84CF4D4224F7879600BD18E9 /* YHButton.h */,
+				84CF4D4324F7879600BD18E9 /* YHButton.m */,
+				84CF4CE424F785A000BD18E9 /* AppDelegate.h */,
+				84CF4CE524F785A000BD18E9 /* AppDelegate.m */,
+				84CF4CEA24F785A000BD18E9 /* ViewController.h */,
+				84CF4CEB24F785A000BD18E9 /* ViewController.m */,
+				84CF4CED24F785A000BD18E9 /* Main.storyboard */,
+				84CF4CF024F785A200BD18E9 /* Assets.xcassets */,
+				84CF4CF224F785A200BD18E9 /* LaunchScreen.storyboard */,
+				84CF4CF524F785A200BD18E9 /* Info.plist */,
+				84CF4CF624F785A200BD18E9 /* main.m */,
+			);
+			path = YHMirror;
+			sourceTree = "<group>";
+		};
+		84CF4CFF24F785A200BD18E9 /* YHMirrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CF4D0024F785A200BD18E9 /* YHMirrorTests.m */,
+				84CF4D0224F785A200BD18E9 /* Info.plist */,
+			);
+			path = YHMirrorTests;
+			sourceTree = "<group>";
+		};
+		84CF4D0A24F785A200BD18E9 /* YHMirrorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CF4D0B24F785A200BD18E9 /* YHMirrorUITests.m */,
+				84CF4D0D24F785A200BD18E9 /* Info.plist */,
+			);
+			path = YHMirrorUITests;
+			sourceTree = "<group>";
+		};
+		84CF4D1924F7862800BD18E9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				84CF4D1A24F7862800BD18E9 /* YHMirrorUI.h */,
+				84CF4D1B24F7862800BD18E9 /* YHMirror.h */,
+				84CF4D1C24F7862800BD18E9 /* YHMirrorDebugModel.h */,
+				84CF4D1D24F7862800BD18E9 /* YHMirrorNavigationController.m */,
+				84CF4D1E24F7862800BD18E9 /* YHSuspensionBall.h */,
+				84CF4D1F24F7862800BD18E9 /* YHMirrorDebugHomeController.m */,
+				84CF4D2024F7862800BD18E9 /* YHMirrorDebugDetailController.h */,
+				84CF4D2124F7862800BD18E9 /* YHMirrorDebugCell.h */,
+				84CF4D2224F7862800BD18E9 /* YHMirrorTreeView.m */,
+				84CF4D2324F7862800BD18E9 /* YHMirrorController.h */,
+				84CF4D2424F7862800BD18E9 /* YHMirrorDebugTableView.h */,
+				84CF4D2524F7862800BD18E9 /* YHMirrorWindow.h */,
+				84CF4D2624F7862800BD18E9 /* YHMacro.h */,
+				84CF4D2724F7862800BD18E9 /* YHMirrorBaseController.m */,
+				84CF4D2824F7862800BD18E9 /* YHMirrorDebugModel.m */,
+				84CF4D2924F7862800BD18E9 /* YHMirror.m */,
+				84CF4D2A24F7862800BD18E9 /* YHMirrorUI.m */,
+				84CF4D2B24F7862800BD18E9 /* YHMirrorDebugDetailController.m */,
+				84CF4D2C24F7862800BD18E9 /* YHMirrorDebugHomeController.h */,
+				84CF4D2D24F7862800BD18E9 /* YHSuspensionBall.m */,
+				84CF4D2E24F7862800BD18E9 /* YHMirrorNavigationController.h */,
+				84CF4D2F24F7862800BD18E9 /* YHMirrorController.m */,
+				84CF4D3024F7862800BD18E9 /* YHMirrorTreeView.h */,
+				84CF4D3124F7862800BD18E9 /* YHMirrorDebugCell.m */,
+				84CF4D3224F7862800BD18E9 /* YHMirrorBaseController.h */,
+				84CF4D3324F7862800BD18E9 /* YHMirrorWindow.m */,
+				84CF4D3424F7862800BD18E9 /* YHMirrorDebugTableView.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CF4CE024F785A000BD18E9 /* YHMirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CF4D1024F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirror" */;
+			buildPhases = (
+				84CF4CDD24F785A000BD18E9 /* Sources */,
+				84CF4CDE24F785A000BD18E9 /* Frameworks */,
+				84CF4CDF24F785A000BD18E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHMirror;
+			productName = YHMirror;
+			productReference = 84CF4CE124F785A000BD18E9 /* YHMirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CF4CFB24F785A200BD18E9 /* YHMirrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CF4D1324F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirrorTests" */;
+			buildPhases = (
+				84CF4CF824F785A200BD18E9 /* Sources */,
+				84CF4CF924F785A200BD18E9 /* Frameworks */,
+				84CF4CFA24F785A200BD18E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CF4CFE24F785A200BD18E9 /* PBXTargetDependency */,
+			);
+			name = YHMirrorTests;
+			productName = YHMirrorTests;
+			productReference = 84CF4CFC24F785A200BD18E9 /* YHMirrorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CF4D0624F785A200BD18E9 /* YHMirrorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CF4D1624F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirrorUITests" */;
+			buildPhases = (
+				84CF4D0324F785A200BD18E9 /* Sources */,
+				84CF4D0424F785A200BD18E9 /* Frameworks */,
+				84CF4D0524F785A200BD18E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CF4D0924F785A200BD18E9 /* PBXTargetDependency */,
+			);
+			name = YHMirrorUITests;
+			productName = YHMirrorUITests;
+			productReference = 84CF4D0724F785A200BD18E9 /* YHMirrorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CF4CD924F785A000BD18E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = yuhechuan;
+				TargetAttributes = {
+					84CF4CE024F785A000BD18E9 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					84CF4CFB24F785A200BD18E9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 84CF4CE024F785A000BD18E9;
+					};
+					84CF4D0624F785A200BD18E9 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 84CF4CE024F785A000BD18E9;
+					};
+				};
+			};
+			buildConfigurationList = 84CF4CDC24F785A000BD18E9 /* Build configuration list for PBXProject "YHMirror" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CF4CD824F785A000BD18E9;
+			productRefGroup = 84CF4CE224F785A000BD18E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CF4CE024F785A000BD18E9 /* YHMirror */,
+				84CF4CFB24F785A200BD18E9 /* YHMirrorTests */,
+				84CF4D0624F785A200BD18E9 /* YHMirrorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CF4CDF24F785A000BD18E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CF4CF424F785A200BD18E9 /* LaunchScreen.storyboard in Resources */,
+				84CF4CF124F785A200BD18E9 /* Assets.xcassets in Resources */,
+				84CF4CEF24F785A000BD18E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4CFA24F785A200BD18E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4D0524F785A200BD18E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CF4CDD24F785A000BD18E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CF4D3D24F7862800BD18E9 /* YHSuspensionBall.m in Sources */,
+				84CF4D3724F7862800BD18E9 /* YHMirrorTreeView.m in Sources */,
+				84CF4D4424F7879600BD18E9 /* YHButton.m in Sources */,
+				84CF4D3824F7862800BD18E9 /* YHMirrorBaseController.m in Sources */,
+				84CF4D3A24F7862800BD18E9 /* YHMirror.m in Sources */,
+				84CF4D4024F7862800BD18E9 /* YHMirrorWindow.m in Sources */,
+				84CF4D3C24F7862800BD18E9 /* YHMirrorDebugDetailController.m in Sources */,
+				84CF4CEC24F785A000BD18E9 /* ViewController.m in Sources */,
+				84CF4D3924F7862800BD18E9 /* YHMirrorDebugModel.m in Sources */,
+				84CF4D3524F7862800BD18E9 /* YHMirrorNavigationController.m in Sources */,
+				84CF4D4124F7862800BD18E9 /* YHMirrorDebugTableView.m in Sources */,
+				84CF4D3E24F7862800BD18E9 /* YHMirrorController.m in Sources */,
+				84CF4D3624F7862800BD18E9 /* YHMirrorDebugHomeController.m in Sources */,
+				84CF4D3B24F7862800BD18E9 /* YHMirrorUI.m in Sources */,
+				84CF4CE624F785A000BD18E9 /* AppDelegate.m in Sources */,
+				84CF4CF724F785A200BD18E9 /* main.m in Sources */,
+				84CF4D3F24F7862800BD18E9 /* YHMirrorDebugCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4CF824F785A200BD18E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CF4D0124F785A200BD18E9 /* YHMirrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CF4D0324F785A200BD18E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CF4D0C24F785A200BD18E9 /* YHMirrorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CF4CFE24F785A200BD18E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CF4CE024F785A000BD18E9 /* YHMirror */;
+			targetProxy = 84CF4CFD24F785A200BD18E9 /* PBXContainerItemProxy */;
+		};
+		84CF4D0924F785A200BD18E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CF4CE024F785A000BD18E9 /* YHMirror */;
+			targetProxy = 84CF4D0824F785A200BD18E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CF4CED24F785A000BD18E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CF4CEE24F785A000BD18E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CF4CF224F785A200BD18E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CF4CF324F785A200BD18E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CF4D0E24F785A200BD18E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84CF4D0F24F785A200BD18E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CF4D1124F785A200BD18E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirror;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CF4D1224F785A200BD18E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirror;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84CF4D1424F785A200BD18E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirrorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHMirror.app/YHMirror";
+			};
+			name = Debug;
+		};
+		84CF4D1524F785A200BD18E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirrorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirrorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHMirror.app/YHMirror";
+			};
+			name = Release;
+		};
+		84CF4D1724F785A200BD18E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHMirror;
+			};
+			name = Debug;
+		};
+		84CF4D1824F785A200BD18E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHMirrorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yh.dawanjia.com.YHMirrorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHMirror;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CF4CDC24F785A000BD18E9 /* Build configuration list for PBXProject "YHMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CF4D0E24F785A200BD18E9 /* Debug */,
+				84CF4D0F24F785A200BD18E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CF4D1024F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CF4D1124F785A200BD18E9 /* Debug */,
+				84CF4D1224F785A200BD18E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CF4D1324F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CF4D1424F785A200BD18E9 /* Debug */,
+				84CF4D1524F785A200BD18E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CF4D1624F785A200BD18E9 /* Build configuration list for PBXNativeTarget "YHMirrorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CF4D1724F785A200BD18E9 /* Debug */,
+				84CF4D1824F785A200BD18E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CF4CD924F785A000BD18E9 /* Project object */;
+}
